@@ -3,22 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>structure</title>
+    <title>Portfolio Navigation</title>
+    <link
+  href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css"rel="stylesheet"/>
+    <link rel="stylesheet" href="structure.css">
 </head>
-<h1> I  AM  A  BACKEND DEVELOPER </h1>
-<style>
-    h1{
-        text-align: center;
-        border: 50px;
-
-        text-decoration-line: underline;
-
-        font-size: 48px;
-
-    }
-    
-</style>
 <body>
-    
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <img src="profile.jpeg" alt="Logo" class="logo-icon">
+                <span class="logo-text">Portfolio</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="about">About</a></li>
+                <li><a href="skills">Skills</a></li>
+                <li><a href="experience">Experience</a></li>
+                <li><a href="projects">Projects</a></li>
+                <li><a href="education">Education</a></li>
+            </ul>
+            <a href="#" class="github-btn">Github Profile</a>
+          <h5> <i class="ri-menu-line"></i></h5>
+        </div>
+    </nav>
+    <section class="Bio-section">
+        <div class="container">
+            <div class="Bio-content">
+                <div class="text-content">
+                    <h1 class="greeting">Hey, I am</h1>
+                    <h1 class="name">Mayank Sharma</h1>
+                    <p class="Developer">I am a <span class="highlight">Backend Developer!</span></p>
+                    <p class="description">
+                        I'm a Software Development Engineer who genuinely enjoys solving complex problems and thinking
+                        through systems logically. I work across the full stack but naturally learn toward backend
+                        design, building clean architectures, and making sure things run fast and smooth.
+                    </p>
+                    <button class="resume-btn">Check Resume</button>
+                </div>
+                <div class="image-content">
+                    <div class="image-profile">
+                        <img src="profile.jpeg.jpeg" alt="Profile Picture">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
+
 </html>
