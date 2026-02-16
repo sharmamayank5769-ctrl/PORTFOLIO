@@ -1125,16 +1125,17 @@ textarea.error-field {
 
 .social-links li a:hover {
     color: #a855f7;
-   
+
     transform: translateY(-3px);
 }
+
 /* ============================================
    RESPONSIVE MEDIA QUERIES - CONSOLIDATED
    ============================================ */
 
 /* ===== TABLET & MEDIUM SCREENS (968px and below) ===== */
 @media (max-width: 968px) {
-    
+
     /* NAVBAR */
     .nav-container {
         flex-wrap: wrap;
@@ -1211,7 +1212,7 @@ textarea.error-field {
         width: 520px;
         height: 520px;
         margin: 0 auto;
-       
+
     }
 
     /* SKILL SECTION */
@@ -1298,8 +1299,8 @@ textarea.error-field {
 
     /* EDUCATION SECTION */
     @media (max-width: 968px) {
-        
-        
+
+
         .College,
         .school-12,
         .school {
@@ -1308,7 +1309,7 @@ textarea.error-field {
             grid-template-columns: 70px 1fr;
             gap: 8px 15px;
         }
-        
+
         .edu-logo,
         .sch-logo,
         .school .sch-logo {
@@ -1321,46 +1322,46 @@ textarea.error-field {
     .contact-name {
         font-size: 2.5rem;
     }
-    
+
     .contact-description {
         font-size: 1.1rem;
         padding: 0 20px;
     }
-    
+
     .email-1 {
         width: 90%;
         padding: 30px;
     }
 }
 
-    /* FOOTER SECTION */
-    .mayank-section {
-        height: auto;
-        padding: 40px 20px;
-    }
+/* FOOTER SECTION */
+.mayank-section {
+    height: auto;
+    padding: 40px 20px;
+}
 
-    .mayank-section h2 {
-        padding-top: 30px;
-        margin-bottom: 20px;
-    }
+.mayank-section h2 {
+    padding-top: 30px;
+    margin-bottom: 20px;
+}
 
-    .conclusion-links {
-        flex-wrap: wrap;
-        gap: 1rem;
-    }
+.conclusion-links {
+    flex-wrap: wrap;
+    gap: 1rem;
+}
 
-    .mayank-section h5 {
-        margin-top: 30px;
-    }
+.mayank-section h5 {
+    margin-top: 30px;
+}
 
-    .social-links {
-        margin-top: 30px;
-    }
+.social-links {
+    margin-top: 30px;
+}
 
 
 /* ===== MOBILE SCREENS (640px and below) ===== */
 @media (max-width: 640px) {
-    
+
     /* BIO SECTION */
     .Bio-section {
         padding: 90px 15px 30px 15px;
@@ -1446,10 +1447,10 @@ textarea.error-field {
         font-size: 1.5rem;
     }
 
-     /* EDUCATION & CONTACT */
-    
+    /* EDUCATION & CONTACT */
+
     @media (max-width: 640px) {
-        
+
         .College,
         .school-12,
         .school {
@@ -1458,76 +1459,77 @@ textarea.error-field {
             grid-template-columns: 60px 1fr;
             gap: 8px 12px;
         }
-        
+
         .edu-logo,
         .sch-logo,
         .school .sch-logo {
             width: 50px;
             height: 50px;
         }
-        
+
         .College h2,
         .school-12 h2,
         .school h2 {
             font-size: 1.1rem;
         }
-        
+
         .College h5,
         .school-12 h5,
         .school h5 {
             font-size: 0.9rem;
         }
-        
+
         .College h6,
         .school-12 h6,
         .school h6 {
             font-size: 0.8rem;
         }
-        
+
         .College p,
         .school-12 p,
         .school p {
             font-size: 0.85rem;
         }
     }
+
     .contact-name {
         font-size: 2rem;
     }
-    
+
     .contact-description {
         font-size: 1rem;
     }
-    
+
     .email-1 {
         width: 95%;
         padding: 25px;
     }
-    
+
     .Email-me h1 {
         font-size: 1.7rem;
     }
 }
 
-    
-    /* FOOTER */
-    .conclusion-links {
-        gap: 1.5rem;
-        font-size: 1.1rem;
-    }
 
-    .social-links {
-        gap: 2rem;
-        font-size: 2rem;
-    }
+/* FOOTER */
+.conclusion-links {
+    gap: 1.5rem;
+    font-size: 1.1rem;
+}
 
-    .mayank-section h5 {
-        font-size: 0.85rem;
-    }
+.social-links {
+    gap: 2rem;
+    font-size: 2rem;
+}
+
+.mayank-section h5 {
+    font-size: 0.85rem;
+}
 
 
 /* ===== EXTRA SMALL SCREENS (400px and below) ===== */
 @media (max-width: 400px) {
-    
+
     /* BIO SECTION */
     .Bio-section {
         padding: 80px 10px 20px 10px;
@@ -1586,7 +1588,7 @@ textarea.error-field {
     /* EDUCATION */
     @media (max-width: 400px) {
         /* ... existing code ... */
-        
+
         .College,
         .school-12,
         .school {
@@ -1595,38 +1597,40 @@ textarea.error-field {
             grid-template-columns: 55px 1fr;
             gap: 6px 10px;
         }
-        
+
         .edu-logo,
         .sch-logo,
         .school .sch-logo {
             width: 45px;
             height: 45px;
         }
-        
+
         .College h2,
         .school-12 h2,
         .school h2 {
             font-size: 1rem;
         }
     }
+
     .contact-name {
         font-size: 1.7rem;
     }
-    
+
     .Email-me h1 {
         font-size: 1.5rem;
     }
 }
-   
-    /* FOOTER */
-    .conclusion-links {
-        flex-direction: column;
-        gap: 1rem;
-    }
 
-    .social-links {
-        gap: 1.5rem;
-    }
+/* FOOTER */
+.conclusion-links {
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.social-links {
+    gap: 1.5rem;
+}
+
 /* FORCE FOOTER LINKS HORIZONTAL  */
 .mayank-section .conclusion-links {
     display: flex !important;
@@ -1635,14 +1639,17 @@ textarea.error-field {
     align-items: center !important;
     gap: 3.5rem !important;
 }
-.mayank-section .social-links{
+
+.mayank-section .social-links {
     gap: 3.5rem !important;
 }
+
 .mayank-section .conclusion-links li {
     display: inline-block !important;
 }
-.Bio-section  .image-profile {
-    width: 330px !important   ;
+
+.Bio-section .image-profile {
+    width: 330px !important;
     height: 330px !important;
     margin-top: 50px !important;
 }
