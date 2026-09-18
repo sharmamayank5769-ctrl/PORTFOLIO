@@ -1,5 +1,6 @@
 html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 * {
     margin: 0;
@@ -10,6 +11,8 @@ html {
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #0a0e27;
+    overflow-x: hidden;
+    max-width: 100%;
 }
 
 /* ===== NAVBAR SECTION ===== */
@@ -602,6 +605,7 @@ body {
     width: 650px;
     margin-left: 400px;
     position: relative;
+    max-width: 100%;
 }
 
 .experience-card:hover {
@@ -1392,12 +1396,6 @@ textarea.error-field {
 }
 
 /* ===== FOOTER SECTION ===== */
-
-
-
-
-
-
 .mayank-section {
     width: 100%;
     background-color: #1f1f2d;
@@ -1406,6 +1404,7 @@ textarea.error-field {
     flex-direction: column;
     align-items: center;
     gap: 22px;
+    overflow: hidden;
 }
 
 /* NAME */
@@ -1422,6 +1421,8 @@ textarea.error-field {
     gap: 2.5rem;
     padding: 0;
     margin: 0;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .conclusion-links li a {
@@ -1465,6 +1466,8 @@ textarea.error-field {
     gap: 1.8rem;
     padding: 0;
     margin: 0;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .social-links li a {
@@ -1773,6 +1776,14 @@ textarea.error-field {
         margin-left: auto;
         margin-right: auto;
         width: 88%;
+        height: auto;
+        min-height: 200px;
+        padding: 25px 20px 25px 40px;
+    }
+
+    .experience-card img {
+        left: 0;
+        width: 25px;
     }
 
     /* PROJECT SECTION */
@@ -2142,7 +2153,7 @@ textarea.error-field {
     gap: 1.5rem;
 }
 
-/* FORCE FOOTER LINKS HORIZONTAL  */
+/* FORCE FOOTER LINKS HORIZONTAL (desktop/tablet only) */
 .mayank-section .conclusion-links {
     display: flex !important;
     flex-direction: row !important;
